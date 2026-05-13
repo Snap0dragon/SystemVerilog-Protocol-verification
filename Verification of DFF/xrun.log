@@ -1,0 +1,1822 @@
+xrun: 25.03-s001: (c) Copyright 1995-2025 Cadence Design Systems, Inc.
+TOOL:	xrun	25.03-s001: Started on May 13, 2026 at 12:38:45 EDT
+xrun
+	-Q
+	-unbuffered
+	-timescale 1ns/1ns
+	-sysv
+	-access +rw
+	design.sv
+	testbench.sv
+	Top level design units:
+		$unit_0x67f934e9
+		tb
+Loading snapshot worklib.tb:sv .................... Done
+SVSEED default: 1
+xcelium> source /xcelium25.03/tools/xcelium/files/xmsimrc
+xcelium> run
+[DRV] : RESET DONE
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 1 DOUT : 0
+[DRV] : DIN : 1 DOUT : 0
+[MON] : DIN : 0 DOUT : 1
+[SCO] : DIN : 0 DOUT : 1
+[REF] : DIN : 1 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+[GEN] : DIN : 0 DOUT : 0
+[DRV] : DIN : 0 DOUT : 0
+[MON] : DIN : 0 DOUT : 0
+[SCO] : DIN : 0 DOUT : 0
+[REF] : DIN : 0 DOUT : 0
+[SCO] : DATA MATCHED
+Simulation complete via $finish(1) at time 12110 NS + 1
+./testbench.sv:210     $finish();
+xcelium> exit
+TOOL:	xrun	25.03-s001: Exiting on May 13, 2026 at 12:38:46 EDT  (total: 00:00:01)
