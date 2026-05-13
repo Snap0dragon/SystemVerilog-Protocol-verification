@@ -1,0 +1,134 @@
+xrun: 25.03-s001: (c) Copyright 1995-2025 Cadence Design Systems, Inc.
+TOOL:	xrun	25.03-s001: Started on May 13, 2026 at 12:24:23 EDT
+xrun
+	-Q
+	-unbuffered
+	-timescale 1ns/1ns
+	-sysv
+	-access +rw
+	design.sv
+	testbench.sv
+   endfunction; 
+              |
+xmvlog: *W,UEXPSC (testbench.sv,86|14): Ignored unexpected semicolon following SystemVerilog description keyword (endfunction).
+   endfunction; 
+              |
+xmvlog: *W,UEXPSC (testbench.sv,156|14): Ignored unexpected semicolon following SystemVerilog description keyword (endfunction).
+   endfunction;
+              |
+xmvlog: *W,UEXPSC (testbench.sv,265|14): Ignored unexpected semicolon following SystemVerilog description keyword (endfunction).
+    endfunction;
+               |
+xmvlog: *W,UEXPSC (testbench.sv,309|15): Ignored unexpected semicolon following SystemVerilog description keyword (endfunction).
+	Top level design units:
+		$unit_0x67f934e9
+		tb
+Loading snapshot worklib.tb:sv .................... Done
+SVSEED default: 1
+xcelium> source /xcelium25.03/tools/xcelium/files/xmsimrc
+xcelium> run
+[DRV] : DUT Reset Done
+[GEN] : WR : 0	 RD:1	 DATAWR : 4	 DATARD : 0	 FULL : 0	 EMPTY : 0 @ 90
+[DRV] : WR : 0	 RD:1	 DATAWR : 4	 DATARD : 0	 FULL : 0	 EMPTY : 0 @ 90
+[MON] : WR : 0	 RD:1	 DATAWR : 4	 DATARD : 0	 FULL : 0	 EMPTY : 1 @ 130
+[SCO] : WR : 0	 RD:1	 DATAWR : 4	 DATARD : 0	 FULL : 0	 EMPTY : 1 @ 130
+[SCO] : FIFO IS EMPTY
+[GEN] : WR : 0	 RD:1	 DATAWR : 2	 DATARD : 0	 FULL : 0	 EMPTY : 0 @ 130
+[DRV] : WR : 0	 RD:1	 DATAWR : 2	 DATARD : 0	 FULL : 0	 EMPTY : 0 @ 130
+[MON] : WR : 0	 RD:1	 DATAWR : 2	 DATARD : 0	 FULL : 0	 EMPTY : 1 @ 170
+[SCO] : WR : 0	 RD:1	 DATAWR : 2	 DATARD : 0	 FULL : 0	 EMPTY : 1 @ 170
+[SCO] : FIFO IS EMPTY
+[GEN] : WR : 1	 RD:0	 DATAWR : 4	 DATARD : 0	 FULL : 0	 EMPTY : 0 @ 170
+[DRV] : WR : 1	 RD:0	 DATAWR : 4	 DATARD : 0	 FULL : 0	 EMPTY : 0 @ 170
+[MON] : WR : 1	 RD:0	 DATAWR : 4	 DATARD : 0	 FULL : 0	 EMPTY : 0 @ 210
+[SCO] : WR : 1	 RD:0	 DATAWR : 4	 DATARD : 0	 FULL : 0	 EMPTY : 0 @ 210
+[SCO] : DATA STORED IN QUEUE :4
+[GEN] : WR : 1	 RD:0	 DATAWR : 2	 DATARD : 0	 FULL : 0	 EMPTY : 0 @ 210
+[DRV] : WR : 1	 RD:0	 DATAWR : 2	 DATARD : 0	 FULL : 0	 EMPTY : 0 @ 210
+[MON] : WR : 1	 RD:0	 DATAWR : 2	 DATARD : 0	 FULL : 0	 EMPTY : 0 @ 250
+[SCO] : WR : 1	 RD:0	 DATAWR : 2	 DATARD : 0	 FULL : 0	 EMPTY : 0 @ 250
+[SCO] : DATA STORED IN QUEUE :2
+[GEN] : WR : 1	 RD:0	 DATAWR : 3	 DATARD : 0	 FULL : 0	 EMPTY : 0 @ 250
+[DRV] : WR : 1	 RD:0	 DATAWR : 3	 DATARD : 0	 FULL : 0	 EMPTY : 0 @ 250
+[MON] : WR : 1	 RD:0	 DATAWR : 3	 DATARD : 0	 FULL : 0	 EMPTY : 0 @ 290
+[SCO] : WR : 1	 RD:0	 DATAWR : 3	 DATARD : 0	 FULL : 0	 EMPTY : 0 @ 290
+[SCO] : DATA STORED IN QUEUE :3
+[GEN] : WR : 0	 RD:1	 DATAWR : 3	 DATARD : 0	 FULL : 0	 EMPTY : 0 @ 290
+[DRV] : WR : 0	 RD:1	 DATAWR : 3	 DATARD : 0	 FULL : 0	 EMPTY : 0 @ 290
+[MON] : WR : 0	 RD:1	 DATAWR : 3	 DATARD : 4	 FULL : 0	 EMPTY : 0 @ 330
+[SCO] : WR : 0	 RD:1	 DATAWR : 3	 DATARD : 4	 FULL : 0	 EMPTY : 0 @ 330
+[SCO] : DATA MATCH
+[GEN] : WR : 0	 RD:1	 DATAWR : 2	 DATARD : 0	 FULL : 0	 EMPTY : 0 @ 330
+[DRV] : WR : 0	 RD:1	 DATAWR : 2	 DATARD : 0	 FULL : 0	 EMPTY : 0 @ 330
+[MON] : WR : 0	 RD:1	 DATAWR : 2	 DATARD : 2	 FULL : 0	 EMPTY : 0 @ 370
+[SCO] : WR : 0	 RD:1	 DATAWR : 2	 DATARD : 2	 FULL : 0	 EMPTY : 0 @ 370
+[SCO] : DATA MATCH
+[GEN] : WR : 0	 RD:1	 DATAWR : 4	 DATARD : 0	 FULL : 0	 EMPTY : 0 @ 370
+[DRV] : WR : 0	 RD:1	 DATAWR : 4	 DATARD : 0	 FULL : 0	 EMPTY : 0 @ 370
+[MON] : WR : 0	 RD:1	 DATAWR : 4	 DATARD : 3	 FULL : 0	 EMPTY : 0 @ 410
+[SCO] : WR : 0	 RD:1	 DATAWR : 4	 DATARD : 3	 FULL : 0	 EMPTY : 0 @ 410
+[SCO] : DATA MATCH
+[GEN] : WR : 1	 RD:0	 DATAWR : 4	 DATARD : 0	 FULL : 0	 EMPTY : 0 @ 410
+[DRV] : WR : 1	 RD:0	 DATAWR : 4	 DATARD : 0	 FULL : 0	 EMPTY : 0 @ 410
+[MON] : WR : 1	 RD:0	 DATAWR : 4	 DATARD : 3	 FULL : 0	 EMPTY : 0 @ 450
+[SCO] : WR : 1	 RD:0	 DATAWR : 4	 DATARD : 3	 FULL : 0	 EMPTY : 0 @ 450
+[SCO] : DATA STORED IN QUEUE :4
+[GEN] : WR : 0	 RD:1	 DATAWR : 4	 DATARD : 0	 FULL : 0	 EMPTY : 0 @ 450
+[DRV] : WR : 0	 RD:1	 DATAWR : 4	 DATARD : 0	 FULL : 0	 EMPTY : 0 @ 450
+[MON] : WR : 0	 RD:1	 DATAWR : 4	 DATARD : 4	 FULL : 0	 EMPTY : 0 @ 490
+[SCO] : WR : 0	 RD:1	 DATAWR : 4	 DATARD : 4	 FULL : 0	 EMPTY : 0 @ 490
+[SCO] : DATA MATCH
+[GEN] : WR : 0	 RD:1	 DATAWR : 2	 DATARD : 0	 FULL : 0	 EMPTY : 0 @ 490
+[DRV] : WR : 0	 RD:1	 DATAWR : 2	 DATARD : 0	 FULL : 0	 EMPTY : 0 @ 490
+[MON] : WR : 0	 RD:1	 DATAWR : 2	 DATARD : 4	 FULL : 0	 EMPTY : 1 @ 530
+[SCO] : WR : 0	 RD:1	 DATAWR : 2	 DATARD : 4	 FULL : 0	 EMPTY : 1 @ 530
+[SCO] : FIFO IS EMPTY
+[GEN] : WR : 1	 RD:0	 DATAWR : 3	 DATARD : 0	 FULL : 0	 EMPTY : 0 @ 530
+[DRV] : WR : 1	 RD:0	 DATAWR : 3	 DATARD : 0	 FULL : 0	 EMPTY : 0 @ 530
+[MON] : WR : 1	 RD:0	 DATAWR : 3	 DATARD : 4	 FULL : 0	 EMPTY : 0 @ 570
+[SCO] : WR : 1	 RD:0	 DATAWR : 3	 DATARD : 4	 FULL : 0	 EMPTY : 0 @ 570
+[SCO] : DATA STORED IN QUEUE :3
+[GEN] : WR : 0	 RD:1	 DATAWR : 2	 DATARD : 0	 FULL : 0	 EMPTY : 0 @ 570
+[DRV] : WR : 0	 RD:1	 DATAWR : 2	 DATARD : 0	 FULL : 0	 EMPTY : 0 @ 570
+[MON] : WR : 0	 RD:1	 DATAWR : 2	 DATARD : 3	 FULL : 0	 EMPTY : 0 @ 610
+[SCO] : WR : 0	 RD:1	 DATAWR : 2	 DATARD : 3	 FULL : 0	 EMPTY : 0 @ 610
+[SCO] : DATA MATCH
+[GEN] : WR : 0	 RD:1	 DATAWR : 4	 DATARD : 0	 FULL : 0	 EMPTY : 0 @ 610
+[DRV] : WR : 0	 RD:1	 DATAWR : 4	 DATARD : 0	 FULL : 0	 EMPTY : 0 @ 610
+[MON] : WR : 0	 RD:1	 DATAWR : 4	 DATARD : 3	 FULL : 0	 EMPTY : 1 @ 650
+[SCO] : WR : 0	 RD:1	 DATAWR : 4	 DATARD : 3	 FULL : 0	 EMPTY : 1 @ 650
+[SCO] : FIFO IS EMPTY
+[GEN] : WR : 1	 RD:0	 DATAWR : 4	 DATARD : 0	 FULL : 0	 EMPTY : 0 @ 650
+[DRV] : WR : 1	 RD:0	 DATAWR : 4	 DATARD : 0	 FULL : 0	 EMPTY : 0 @ 650
+[MON] : WR : 1	 RD:0	 DATAWR : 4	 DATARD : 3	 FULL : 0	 EMPTY : 0 @ 690
+[SCO] : WR : 1	 RD:0	 DATAWR : 4	 DATARD : 3	 FULL : 0	 EMPTY : 0 @ 690
+[SCO] : DATA STORED IN QUEUE :4
+[GEN] : WR : 0	 RD:1	 DATAWR : 3	 DATARD : 0	 FULL : 0	 EMPTY : 0 @ 690
+[DRV] : WR : 0	 RD:1	 DATAWR : 3	 DATARD : 0	 FULL : 0	 EMPTY : 0 @ 690
+[MON] : WR : 0	 RD:1	 DATAWR : 3	 DATARD : 4	 FULL : 0	 EMPTY : 0 @ 730
+[SCO] : WR : 0	 RD:1	 DATAWR : 3	 DATARD : 4	 FULL : 0	 EMPTY : 0 @ 730
+[SCO] : DATA MATCH
+[GEN] : WR : 0	 RD:1	 DATAWR : 3	 DATARD : 0	 FULL : 0	 EMPTY : 0 @ 730
+[DRV] : WR : 0	 RD:1	 DATAWR : 3	 DATARD : 0	 FULL : 0	 EMPTY : 0 @ 730
+[MON] : WR : 0	 RD:1	 DATAWR : 3	 DATARD : 4	 FULL : 0	 EMPTY : 1 @ 770
+[SCO] : WR : 0	 RD:1	 DATAWR : 3	 DATARD : 4	 FULL : 0	 EMPTY : 1 @ 770
+[SCO] : FIFO IS EMPTY
+[GEN] : WR : 1	 RD:0	 DATAWR : 4	 DATARD : 0	 FULL : 0	 EMPTY : 0 @ 770
+[DRV] : WR : 1	 RD:0	 DATAWR : 4	 DATARD : 0	 FULL : 0	 EMPTY : 0 @ 770
+[MON] : WR : 1	 RD:0	 DATAWR : 4	 DATARD : 4	 FULL : 0	 EMPTY : 0 @ 810
+[SCO] : WR : 1	 RD:0	 DATAWR : 4	 DATARD : 4	 FULL : 0	 EMPTY : 0 @ 810
+[SCO] : DATA STORED IN QUEUE :4
+[GEN] : WR : 0	 RD:1	 DATAWR : 3	 DATARD : 0	 FULL : 0	 EMPTY : 0 @ 810
+[DRV] : WR : 0	 RD:1	 DATAWR : 3	 DATARD : 0	 FULL : 0	 EMPTY : 0 @ 810
+[MON] : WR : 0	 RD:1	 DATAWR : 3	 DATARD : 4	 FULL : 0	 EMPTY : 0 @ 850
+[SCO] : WR : 0	 RD:1	 DATAWR : 3	 DATARD : 4	 FULL : 0	 EMPTY : 0 @ 850
+[SCO] : DATA MATCH
+[GEN] : WR : 0	 RD:1	 DATAWR : 3	 DATARD : 0	 FULL : 0	 EMPTY : 0 @ 850
+[DRV] : WR : 0	 RD:1	 DATAWR : 3	 DATARD : 0	 FULL : 0	 EMPTY : 0 @ 850
+[MON] : WR : 0	 RD:1	 DATAWR : 3	 DATARD : 4	 FULL : 0	 EMPTY : 1 @ 890
+[SCO] : WR : 0	 RD:1	 DATAWR : 3	 DATARD : 4	 FULL : 0	 EMPTY : 1 @ 890
+[SCO] : FIFO IS EMPTY
+Simulation complete via $finish(1) at time 890 NS + 1
+./testbench.sv:481     $finish();
+xcelium> exit
+TOOL:	xrun	25.03-s001: Exiting on May 13, 2026 at 12:24:25 EDT  (total: 00:00:02)

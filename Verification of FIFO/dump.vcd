@@ -1,0 +1,576 @@
+$date
+    May 13, 2026  12:24:24
+$end
+$version
+    TOOL:	xmsim	25.03-s001
+$end
+$timescale
+    1 ns
+$end
+
+$scope module tb $end
+
+$scope module fif $end
+$var reg       1 !    clock $end
+$var reg       1 "    rd $end
+$var reg       1 #    wr $end
+$var reg       1 $    full $end
+$var reg       1 %    empty $end
+$var reg       8 &    data_in [7:0] $end
+$var reg       8 '    data_out [7:0] $end
+$var reg       1 (    rst $end
+$upscope $end
+
+
+$scope module dut $end
+$var wire      1 )    clock  $end
+$var wire      1 *    rd  $end
+$var wire      1 +    wr  $end
+$var wire      1 ,    full  $end
+$var wire      1 -    empty  $end
+$var wire      8 .    data_in [7:0] $end
+$var reg       8 /    data_out [7:0] $end
+$var wire      1 0    rst  $end
+$var reg       8 1    mem[31] [7:0] $end
+$var reg       8 2    mem[30] [7:0] $end
+$var reg       8 3    mem[29] [7:0] $end
+$var reg       8 4    mem[28] [7:0] $end
+$var reg       8 5    mem[27] [7:0] $end
+$var reg       8 6    mem[26] [7:0] $end
+$var reg       8 7    mem[25] [7:0] $end
+$var reg       8 8    mem[24] [7:0] $end
+$var reg       8 9    mem[23] [7:0] $end
+$var reg       8 :    mem[22] [7:0] $end
+$var reg       8 ;    mem[21] [7:0] $end
+$var reg       8 <    mem[20] [7:0] $end
+$var reg       8 =    mem[19] [7:0] $end
+$var reg       8 >    mem[18] [7:0] $end
+$var reg       8 ?    mem[17] [7:0] $end
+$var reg       8 @    mem[16] [7:0] $end
+$var reg       8 A    mem[15] [7:0] $end
+$var reg       8 B    mem[14] [7:0] $end
+$var reg       8 C    mem[13] [7:0] $end
+$var reg       8 D    mem[12] [7:0] $end
+$var reg       8 E    mem[11] [7:0] $end
+$var reg       8 F    mem[10] [7:0] $end
+$var reg       8 G    mem[9] [7:0] $end
+$var reg       8 H    mem[8] [7:0] $end
+$var reg       8 I    mem[7] [7:0] $end
+$var reg       8 J    mem[6] [7:0] $end
+$var reg       8 K    mem[5] [7:0] $end
+$var reg       8 L    mem[4] [7:0] $end
+$var reg       8 M    mem[3] [7:0] $end
+$var reg       8 N    mem[2] [7:0] $end
+$var reg       8 O    mem[1] [7:0] $end
+$var reg       8 P    mem[0] [7:0] $end
+$var reg       5 Q    wr_ptr [4:0] $end
+$var reg       5 R    rd_ptr [4:0] $end
+$upscope $end
+
+$upscope $end
+
+$enddefinitions $end
+$dumpvars
+0!
+0"
+0#
+x$
+x%
+b0 &
+bx '
+1(
+0)
+0*
+0+
+x,
+x-
+b0 .
+bx /
+10
+bx 1
+bx 2
+bx 3
+bx 4
+bx 5
+bx 6
+bx 7
+bx 8
+bx 9
+bx :
+bx ;
+bx <
+bx =
+bx >
+bx ?
+bx @
+bx A
+bx B
+bx C
+bx D
+bx E
+bx F
+bx G
+bx H
+bx I
+bx J
+bx K
+bx L
+bx M
+bx N
+bx O
+bx P
+bx Q
+bx R
+$end
+#10
+1!
+1)
+b0 /
+b0 R
+b0 Q
+b0 P
+b0 O
+b0 N
+b0 M
+b0 L
+b0 K
+b0 J
+b0 I
+b0 H
+b0 G
+b0 F
+b0 E
+b0 D
+b0 C
+b0 B
+b0 A
+b0 @
+b0 ?
+b0 >
+b0 =
+b0 <
+b0 ;
+b0 :
+b0 9
+b0 8
+b0 7
+b0 6
+b0 5
+b0 4
+b0 3
+b0 2
+b0 1
+0,
+1-
+0$
+1%
+b0 '
+#20
+0!
+0)
+#30
+1!
+1)
+#40
+0!
+0)
+#50
+1!
+1)
+#60
+0!
+0)
+#70
+1!
+1)
+#80
+0!
+0)
+#90
+1!
+1)
+0(
+1"
+b100 &
+b100 .
+1*
+00
+#100
+0!
+0)
+#110
+1!
+1)
+#120
+0!
+0)
+#130
+1!
+1)
+b10 &
+b10 .
+#140
+0!
+0)
+#150
+1!
+1)
+#160
+0!
+0)
+#170
+1!
+1)
+0"
+1#
+b100 &
+b100 .
+1+
+0*
+#180
+0!
+0)
+#190
+1!
+1)
+b1 Q
+0-
+0%
+b100 P
+#200
+0!
+0)
+#210
+1!
+1)
+b10 Q
+b10 &
+b100 O
+b10 .
+#220
+0!
+0)
+#230
+1!
+1)
+b11 Q
+b10 N
+#240
+0!
+0)
+#250
+1!
+1)
+b100 Q
+b11 &
+b10 M
+b11 .
+#260
+0!
+0)
+#270
+1!
+1)
+b101 Q
+b11 L
+#280
+0!
+0)
+#290
+1!
+1)
+b110 Q
+1"
+0#
+b11 K
+0+
+1*
+#300
+0!
+0)
+#310
+1!
+1)
+b100 /
+b1 R
+b100 '
+#320
+0!
+0)
+#330
+1!
+1)
+b10 &
+b10 R
+b10 .
+#340
+0!
+0)
+#350
+1!
+1)
+b10 /
+b11 R
+b10 '
+#360
+0!
+0)
+#370
+1!
+1)
+b100 &
+b100 R
+b100 .
+#380
+0!
+0)
+#390
+1!
+1)
+b11 /
+b101 R
+b11 '
+#400
+0!
+0)
+#410
+1!
+1)
+0"
+1#
+b110 R
+1-
+1+
+0*
+1%
+#420
+0!
+0)
+#430
+1!
+1)
+b111 Q
+0-
+0%
+b100 J
+#440
+0!
+0)
+#450
+1!
+1)
+b1000 Q
+1"
+0#
+b100 I
+0+
+1*
+#460
+0!
+0)
+#470
+1!
+1)
+b100 /
+b111 R
+b100 '
+#480
+0!
+0)
+#490
+1!
+1)
+b10 &
+b1000 R
+1-
+b10 .
+1%
+#500
+0!
+0)
+#510
+1!
+1)
+#520
+0!
+0)
+#530
+1!
+1)
+0"
+1#
+b11 &
+b11 .
+1+
+0*
+#540
+0!
+0)
+#550
+1!
+1)
+b1001 Q
+0-
+0%
+b11 H
+#560
+0!
+0)
+#570
+1!
+1)
+b1010 Q
+1"
+0#
+b10 &
+b11 G
+b10 .
+0+
+1*
+#580
+0!
+0)
+#590
+1!
+1)
+b11 /
+b1001 R
+b11 '
+#600
+0!
+0)
+#610
+1!
+1)
+b100 &
+b1010 R
+1-
+b100 .
+1%
+#620
+0!
+0)
+#630
+1!
+1)
+#640
+0!
+0)
+#650
+1!
+1)
+0"
+1#
+1+
+0*
+#660
+0!
+0)
+#670
+1!
+1)
+b1011 Q
+0-
+0%
+b100 F
+#680
+0!
+0)
+#690
+1!
+1)
+b1100 Q
+1"
+0#
+b11 &
+b100 E
+b11 .
+0+
+1*
+#700
+0!
+0)
+#710
+1!
+1)
+b100 /
+b1011 R
+b100 '
+#720
+0!
+0)
+#730
+1!
+1)
+b1100 R
+1-
+1%
+#740
+0!
+0)
+#750
+1!
+1)
+#760
+0!
+0)
+#770
+1!
+1)
+0"
+1#
+b100 &
+b100 .
+1+
+0*
+#780
+0!
+0)
+#790
+1!
+1)
+b1101 Q
+0-
+0%
+b100 D
+#800
+0!
+0)
+#810
+1!
+1)
+b1110 Q
+1"
+0#
+b11 &
+b100 C
+b11 .
+0+
+1*
+#820
+0!
+0)
+#830
+1!
+1)
+b1101 R
+#840
+0!
+0)
+#850
+1!
+1)
+b1110 R
+1-
+1%
+#860
+0!
+0)
+#870
+1!
+1)
+#880
+0!
+0)
+#890
+1!
