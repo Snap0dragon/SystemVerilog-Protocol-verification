@@ -1,1 +1,273 @@
+# FIFO Verification using SystemVerilog
+
+A complete **SystemVerilog Object-Oriented Testbench** for verifying a synchronous FIFO design using:
+
+- Generator
+- Driver
+- Monitor
+- Scoreboard
+- Mailboxes
+- Virtual Interface
+- Constrained Random Verification
+
+This project was simulated on **EDA Playground** using the Cadence/Xcelium simulator.
+
+---
+
+# Project Overview
+
+This project verifies an 8-bit, 32-depth synchronous FIFO implementation.
+
+The verification environment generates randomized read/write transactions, applies them to the DUT, monitors the output behavior, and automatically checks correctness using a scoreboard.
+
+---
+
+# FIFO Specifications
+
+| Parameter | Value |
+|-----------|-------|
+| Data Width | 8-bit |
+| FIFO Depth | 32 |
+| Clock Type | Synchronous |
+| Reset Type | Active High |
+| Read/Write | Controlled by `rd` and `wr` |
+
+---
+
+# Design Features
+
+The FIFO supports:
+
+- Data write when FIFO is not full
+- Data read when FIFO is not empty
+- Full flag generation
+- Empty flag generation
+- Reset initialization of memory and pointers
+
+---
+
+# Verification Architecture
+
+The testbench follows a layered architecture:
+
+```text
+Generator → Driver → DUT → Monitor → Scoreboard
+```
+
+---
+
+# Verification Components
+
+## 1. Transaction Class
+
+Defines randomized transactions.
+
+Randomized fields:
+
+- `wr`
+- `rd`
+- `data_in`
+
+Constraints:
+
+- Read and write cannot happen simultaneously
+- Input data range: `2–4`
+
+---
+
+## 2. Generator
+
+Responsible for:
+
+- Randomizing transactions
+- Sending transactions to driver using mailbox
+- Synchronizing with scoreboard using events
+
+---
+
+## 3. Driver
+
+Responsible for:
+
+- Resetting DUT
+- Applying stimulus to DUT interface
+- Driving randomized transactions
+
+---
+
+## 4. Monitor
+
+Responsible for:
+
+- Sampling DUT signals
+- Capturing transaction activity
+- Sending captured transactions to scoreboard
+
+---
+
+## 5. Scoreboard
+
+Responsible for:
+
+- Maintaining reference queue model
+- Comparing DUT output against expected output
+- Reporting:
+
+### Pass Condition
+```text
+[SCO] : DATA MATCH
+```
+
+### Fail Condition
+```text
+[SCO] : DATA MISMATCH
+```
+
+---
+
+## 6. Environment
+
+Top-level verification controller.
+
+Responsibilities:
+
+- Create all components
+- Connect mailboxes
+- Connect virtual interfaces
+- Run simulation phases:
+
+```text
+Pre-test → Test → Post-test
+```
+
+---
+
+# Project Directory
+
+After simulation, the generated files look like:
+
+```text
+.simvision/
+xcelium.d/
+work/
+
+design.sv
+testbench.sv
+run.sh
+dump.tcl
+dump.vcd
+xrun.history
+```
+
+---
+
+# Simulation Output Files
+
+## VCD Waveform
+
+Waveform dump file:
+
+```text
+dump.vcd
+```
+
+Can be viewed in:
+
+- GTKWave
+- SimVision
+
+---
+
+# Sample Console Output
+
+Example simulation logs:
+
+```text
+[DRV] : DUT Reset Done
+[GEN] : WR : 1 RD : 0 DATAWR : 3
+[MON] : WR : 1 RD : 0 DATAWR : 3
+[SCO] : DATA STORED IN QUEUE : 3
+
+[GEN] : WR : 0 RD : 1
+[SCO] : DATA MATCH
+```
+
+---
+
+# How to Run
+
+## On EDA Playground
+
+1. Open EDA Playground
+2. Select:
+
+```text
+Language: SystemVerilog
+Simulator: Cadence Xcelium
+```
+
+3. Copy:
+
+- Design code into `design.sv`
+- Testbench code into `testbench.sv`
+
+4. Click **Run**
+
+---
+
+## Local Execution (Xcelium)
+
+```bash
+xrun design.sv testbench.sv
+```
+
+To view waveform:
+
+```bash
+simvision dump.vcd
+```
+
+---
+
+# Verification Techniques Used
+
+This project demonstrates:
+
+- Object-Oriented Verification
+- Constrained Random Testing
+- Functional Checking
+- Transaction-Level Modeling
+- Mailbox Communication
+- Event Synchronization
+
+---
+
+# Learning Outcomes
+
+By studying this project, you will understand:
+
+- How to build reusable SV testbenches
+- How verification components interact
+- How scoreboards validate DUT functionality
+- Industry-style verification methodology basics
+
+---
+
+# Future Improvements
+
+Possible enhancements:
+
+- Functional Coverage
+- Assertions (SVA)
+- Corner case testing
+- Simultaneous read/write support
+- UVM migration
+
+---
+
+# Author
+
+**Nayeb Hasin**  
+Electrical and Electronic Engineering  
+Verification | Embedded Systems | Digital Design
 
