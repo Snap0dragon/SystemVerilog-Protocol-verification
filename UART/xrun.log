@@ -1,0 +1,47 @@
+xrun: 25.03-s001: (c) Copyright 1995-2025 Cadence Design Systems, Inc.
+TOOL:	xrun	25.03-s001: Started on May 13, 2026 at 12:53:00 EDT
+xrun
+	-Q
+	-unbuffered
+	-timescale 1ns/1ns
+	-sysv
+	-access +rw
+	design.sv
+	testbench.sv
+	Top level design units:
+		$unit_0x67f934e9
+		tb
+Loading snapshot worklib.tb:sv .................... Done
+SVSEED default: 1
+xcelium> source /xcelium25.03/tools/xcelium/files/xmsimrc
+xcelium> run
+[DRV] : RESET DONE
+[GEN] : oper : write send : 0 TX_DATA : 00001010 RX_IN : 0 TX_OUT : 0 RX_OUT : 00000000 DONE_TX : 0 DONE_RX : 0
+[DRV]: Data Sent : 10
+[MON] : DATA SEND on UART TX 10
+[SCO] : DRV : 10 MON : 10
+DATA MATCHED
+[GEN] : oper : read send : 0 TX_DATA : 11000010 RX_IN : 0 TX_OUT : 0 RX_OUT : 00000000 DONE_TX : 0 DONE_RX : 0
+[DRV]: Data RCVD : 222
+[MON] : DATA RCVD RX 222
+[SCO] : DRV : 222 MON : 222
+DATA MATCHED
+[GEN] : oper : write send : 0 TX_DATA : 00000100 RX_IN : 0 TX_OUT : 0 RX_OUT : 00000000 DONE_TX : 0 DONE_RX : 0
+[DRV]: Data Sent : 4
+[MON] : DATA SEND on UART TX 4
+[SCO] : DRV : 4 MON : 4
+DATA MATCHED
+[GEN] : oper : read send : 0 TX_DATA : 00011001 RX_IN : 0 TX_OUT : 0 RX_OUT : 00000000 DONE_TX : 0 DONE_RX : 0
+[DRV]: Data RCVD : 26
+[MON] : DATA RCVD RX 26
+[SCO] : DRV : 26 MON : 26
+DATA MATCHED
+[GEN] : oper : read send : 0 TX_DATA : 00110101 RX_IN : 0 TX_OUT : 0 RX_OUT : 00000000 DONE_TX : 0 DONE_RX : 0
+[DRV]: Data RCVD : 32
+[MON] : DATA RCVD RX 32
+[SCO] : DRV : 32 MON : 32
+DATA MATCHED
+Simulation complete via $finish(1) at time 138850 NS + 3
+./testbench.sv:503     $finish();
+xcelium> exit
+TOOL:	xrun	25.03-s001: Exiting on May 13, 2026 at 12:53:02 EDT  (total: 00:00:02)
